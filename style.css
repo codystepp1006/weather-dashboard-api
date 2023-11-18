@@ -1,0 +1,74 @@
+#header{
+    color:white;
+    background-image: linear-gradient(to right, lightblue , blue);
+    text-align: center;
+}
+#MyBtn{
+    display: flex;
+    color:white;
+    background-color: blue;
+    font-size: medium;
+    width:189px;
+}
+
+#line{
+    width:189px;
+}
+.cityContainer{
+    display: flex;
+    flex:wrap;
+    flex-direction: column;
+    width: 189px;
+    margin-top:2%;
+
+}
+
+#atlanta{
+
+}
+#denver{
+    margin-top: 3%;
+}
+#seattle{
+    margin-top: 3%; 
+}
+#sanfrancisco{
+    margin-top: 3%;
+}
+#orlando{
+    margin-top: 3%;
+}
+#newyork{
+    margin-top: 3%;
+}
+#chicago{
+    margin-top: 3%;
+}
+#austin{
+    margin-top: 3%;
+}
+
+.weatherData{
+  position: absolute;
+  top: 25%;
+  left: 57%;
+  transform: translate(-50%, -50%);
+  border:solid black 1px;
+  padding:0 60% 0 20px;
+}
+.weatherForecast{
+    position:absolute;
+    top:35%;
+    left:24%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#containment{
+    border:1px;
+    border-style: solid;
+    border-color:black;
+    padding:30px;
+    margin-top:10%;
+}
