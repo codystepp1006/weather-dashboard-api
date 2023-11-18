@@ -36,9 +36,9 @@ async function getWeather() {
   
 
     cityNameElm.innerHTML = weatherData.name;
-    cityTempElm.innerHTML = weatherData.main.temp;
-    cityWindElm.innerHTML = weatherData.wind.speed;
-    cityHumidityElm.innerHTML = weatherData.main.humidity;
+    cityTempElm.innerHTML = "Temperature: " + weatherData.main.temp + " F";
+    cityWindElm.innerHTML = "Wind Speed: " + weatherData.wind.speed + " mph";
+    cityHumidityElm.innerHTML = "Humidity: " + weatherData.main.humidity + "%";
 
 
     fiveDayForecast();

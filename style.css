@@ -1,14 +1,18 @@
+
 #header{
     color:white;
     background-image: linear-gradient(to right, lightblue , blue);
     text-align: center;
 }
+#weathercityname{
+    width:150px;
+}
 #MyBtn{
     display: flex;
-    color:white;
-    background-color: blue;
+    background-color: lightblue;
     font-size: medium;
     width:189px;
+    margin-top:10px;
 }
 
 #line{
@@ -20,32 +24,40 @@
     flex-direction: column;
     width: 189px;
     margin-top:2%;
+    
 
 }
 
 #atlanta{
-
+    background-color: lightblue;
 }
 #denver{
     margin-top: 3%;
+    background-color: lightblue;
 }
 #seattle{
     margin-top: 3%; 
+    background-color: lightblue;
 }
 #sanfrancisco{
     margin-top: 3%;
+    background-color: lightblue;
 }
 #orlando{
     margin-top: 3%;
+    background-color: lightblue;
 }
 #newyork{
     margin-top: 3%;
+    background-color: lightblue;
 }
 #chicago{
     margin-top: 3%;
+    background-color: lightblue;
 }
 #austin{
     margin-top: 3%;
+    background-color: lightblue;
 }
 
 .weatherData{
@@ -54,7 +66,9 @@
   left: 57%;
   transform: translate(-50%, -50%);
   border:solid black 1px;
+  height:230px;
   padding:0 60% 0 20px;
+  background-image: linear-gradient(to right, lightblue , blue);
 }
 .weatherForecast{
     position:absolute;
@@ -63,6 +77,8 @@
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
+    
+    
 }
 
 #containment{
@@ -71,4 +87,6 @@
     border-color:black;
     padding:30px;
     margin-top:10%;
+    margin-left:10px;
+    background-color: lightblue;
 }
